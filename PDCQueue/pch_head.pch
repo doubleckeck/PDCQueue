@@ -1,0 +1,18 @@
+//
+//  pch_head.pch
+//  PDCQueue
+//
+//  Created by KH on 16/5/28.
+//  Copyright © 2016年 KH. All rights reserved.
+//
+
+#ifndef pch_head_pch
+#define pch_head_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "PDCQueue.h"
+
+#endif /* pch_head_pch */
