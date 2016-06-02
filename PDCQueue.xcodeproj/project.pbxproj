@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA20505A1CFED44600A81DD6 /* DispathApply.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2050591CFED44600A81DD6 /* DispathApply.m */; };
+		EA20505F1CFED7A400A81DD6 /* NSArray+PDCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20505E1CFED7A400A81DD6 /* NSArray+PDCKit.m */; };
+		EA2050621CFEEA5800A81DD6 /* QoSClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2050611CFEEA5800A81DD6 /* QoSClass.m */; };
+		EAE3773A1CF8817E00EBF8BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE377391CF8817E00EBF8BD /* main.m */; };
+		EAE3773D1CF8817E00EBF8BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3773C1CF8817E00EBF8BD /* AppDelegate.m */; };
+		EAE377401CF8817E00EBF8BD /* AsynGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3773F1CF8817E00EBF8BD /* AsynGroup.m */; };
+		EAE377431CF8817E00EBF8BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE377411CF8817E00EBF8BD /* Main.storyboard */; };
+		EAE377451CF8817E00EBF8BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE377441CF8817E00EBF8BD /* Assets.xcassets */; };
+		EAE377481CF8817E00EBF8BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE377461CF8817E00EBF8BD /* LaunchScreen.storyboard */; };
+		EAE377531CF8817E00EBF8BD /* PDCQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE377521CF8817E00EBF8BD /* PDCQueueTests.m */; };
+		EAE3775E1CF8817E00EBF8BD /* PDCQueueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3775D1CF8817E00EBF8BD /* PDCQueueUITests.m */; };
+		EAE3776D1CF8865100EBF8BD /* PDCQueueTableVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3776C1CF8865100EBF8BD /* PDCQueueTableVIewController.m */; };
+		EAE377711CF88ECF00EBF8BD /* SafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE377701CF88ECF00EBF8BD /* SafeThread.m */; };
+		EAED56731CF930A1007BEF66 /* PDCQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED56721CF930A1007BEF66 /* PDCQueue.m */; };
+		EAED56791CF943C0007BEF66 /* SerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED56781CF943C0007BEF66 /* SerialQueue.m */; };
+		EAED56831CF96517007BEF66 /* PDCOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED56821CF96517007BEF66 /* PDCOperation.m */; };
+		EAED56CC1CF980D8007BEF66 /* SerialOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED56CB1CF980D8007BEF66 /* SerialOperationQueue.m */; };
+		EAED56D31CF9C208007BEF66 /* PDCSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED56D21CF9C208007BEF66 /* PDCSerialQueue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAE3774F1CF8817E00EBF8BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE3772D1CF8817E00EBF8BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE377341CF8817E00EBF8BD;
+			remoteInfo = PDCQueue;
+		};
+		EAE3775A1CF8817E00EBF8BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE3772D1CF8817E00EBF8BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE377341CF8817E00EBF8BD;
+			remoteInfo = PDCQueue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA2050581CFED44600A81DD6 /* DispathApply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispathApply.h; sourceTree = "<group>"; };
+		EA2050591CFED44600A81DD6 /* DispathApply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispathApply.m; sourceTree = "<group>"; };
+		EA20505D1CFED7A400A81DD6 /* NSArray+PDCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PDCKit.h"; sourceTree = "<group>"; };
+		EA20505E1CFED7A400A81DD6 /* NSArray+PDCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PDCKit.m"; sourceTree = "<group>"; };
+		EA2050601CFEEA5800A81DD6 /* QoSClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QoSClass.h; sourceTree = "<group>"; };
+		EA2050611CFEEA5800A81DD6 /* QoSClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QoSClass.m; sourceTree = "<group>"; };
+		EAE377351CF8817E00EBF8BD /* PDCQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDCQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE377391CF8817E00EBF8BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAE3773B1CF8817E00EBF8BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAE3773C1CF8817E00EBF8BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAE3773E1CF8817E00EBF8BD /* AsynGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsynGroup.h; sourceTree = "<group>"; };
+		EAE3773F1CF8817E00EBF8BD /* AsynGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsynGroup.m; sourceTree = "<group>"; };
+		EAE377421CF8817E00EBF8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAE377441CF8817E00EBF8BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE377471CF8817E00EBF8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAE377491CF8817E00EBF8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE3774E1CF8817E00EBF8BD /* PDCQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDCQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE377521CF8817E00EBF8BD /* PDCQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCQueueTests.m; sourceTree = "<group>"; };
+		EAE377541CF8817E00EBF8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE377591CF8817E00EBF8BD /* PDCQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDCQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE3775D1CF8817E00EBF8BD /* PDCQueueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCQueueUITests.m; sourceTree = "<group>"; };
+		EAE3775F1CF8817E00EBF8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE3776B1CF8865100EBF8BD /* PDCQueueTableVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCQueueTableVIewController.h; sourceTree = "<group>"; };
+		EAE3776C1CF8865100EBF8BD /* PDCQueueTableVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCQueueTableVIewController.m; sourceTree = "<group>"; };
+		EAE3776F1CF88ECF00EBF8BD /* SafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeThread.h; sourceTree = "<group>"; };
+		EAE377701CF88ECF00EBF8BD /* SafeThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeThread.m; sourceTree = "<group>"; };
+		EAED56711CF930A1007BEF66 /* PDCQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCQueue.h; sourceTree = "<group>"; };
+		EAED56721CF930A1007BEF66 /* PDCQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCQueue.m; sourceTree = "<group>"; };
+		EAED56771CF943C0007BEF66 /* SerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialQueue.h; sourceTree = "<group>"; };
+		EAED56781CF943C0007BEF66 /* SerialQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialQueue.m; sourceTree = "<group>"; };
+		EAED567A1CF94468007BEF66 /* pch_head.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pch_head.pch; sourceTree = "<group>"; };
+		EAED56811CF96517007BEF66 /* PDCOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCOperation.h; sourceTree = "<group>"; };
+		EAED56821CF96517007BEF66 /* PDCOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCOperation.m; sourceTree = "<group>"; };
+		EAED56CA1CF980D8007BEF66 /* SerialOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialOperationQueue.h; sourceTree = "<group>"; };
+		EAED56CB1CF980D8007BEF66 /* SerialOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialOperationQueue.m; sourceTree = "<group>"; };
+		EAED56D11CF9C208007BEF66 /* PDCSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCSerialQueue.h; sourceTree = "<group>"; };
+		EAED56D21CF9C208007BEF66 /* PDCSerialQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCSerialQueue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE377321CF8817E00EBF8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE3774B1CF8817E00EBF8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE377561CF8817E00EBF8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA20505B1CFED76700A81DD6 /* NS */ = {
+			isa = PBXGroup;
+			children = (
+				EA20505D1CFED7A400A81DD6 /* NSArray+PDCKit.h */,
+				EA20505E1CFED7A400A81DD6 /* NSArray+PDCKit.m */,
+			);
+			name = NS;
+			sourceTree = "<group>";
+		};
+		EA20505C1CFED77100A81DD6 /* PDC */ = {
+			isa = PBXGroup;
+			children = (
+				EAED56711CF930A1007BEF66 /* PDCQueue.h */,
+				EAED56721CF930A1007BEF66 /* PDCQueue.m */,
+				EAED56D11CF9C208007BEF66 /* PDCSerialQueue.h */,
+				EAED56D21CF9C208007BEF66 /* PDCSerialQueue.m */,
+				EAED56811CF96517007BEF66 /* PDCOperation.h */,
+				EAED56821CF96517007BEF66 /* PDCOperation.m */,
+			);
+			name = PDC;
+			sourceTree = "<group>";
+		};
+		EAE3772C1CF8817E00EBF8BD = {
+			isa = PBXGroup;
+			children = (
+				EAE377371CF8817E00EBF8BD /* PDCQueue */,
+				EAE377511CF8817E00EBF8BD /* PDCQueueTests */,
+				EAE3775C1CF8817E00EBF8BD /* PDCQueueUITests */,
+				EAE377361CF8817E00EBF8BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE377361CF8817E00EBF8BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE377351CF8817E00EBF8BD /* PDCQueue.app */,
+				EAE3774E1CF8817E00EBF8BD /* PDCQueueTests.xctest */,
+				EAE377591CF8817E00EBF8BD /* PDCQueueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE377371CF8817E00EBF8BD /* PDCQueue */ = {
+			isa = PBXGroup;
+			children = (
+				EA20505C1CFED77100A81DD6 /* PDC */,
+				EA20505B1CFED76700A81DD6 /* NS */,
+				EAE3773B1CF8817E00EBF8BD /* AppDelegate.h */,
+				EAE3773C1CF8817E00EBF8BD /* AppDelegate.m */,
+				EAE3776B1CF8865100EBF8BD /* PDCQueueTableVIewController.h */,
+				EAE3776C1CF8865100EBF8BD /* PDCQueueTableVIewController.m */,
+				EAE3776E1CF88E6500EBF8BD /* queue demo */,
+				EAE377411CF8817E00EBF8BD /* Main.storyboard */,
+				EAED567A1CF94468007BEF66 /* pch_head.pch */,
+				EAE377441CF8817E00EBF8BD /* Assets.xcassets */,
+				EAE377461CF8817E00EBF8BD /* LaunchScreen.storyboard */,
+				EAE377491CF8817E00EBF8BD /* Info.plist */,
+				EAE377381CF8817E00EBF8BD /* Supporting Files */,
+			);
+			path = PDCQueue;
+			sourceTree = "<group>";
+		};
+		EAE377381CF8817E00EBF8BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE377391CF8817E00EBF8BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAE377511CF8817E00EBF8BD /* PDCQueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE377521CF8817E00EBF8BD /* PDCQueueTests.m */,
+				EAE377541CF8817E00EBF8BD /* Info.plist */,
+			);
+			path = PDCQueueTests;
+			sourceTree = "<group>";
+		};
+		EAE3775C1CF8817E00EBF8BD /* PDCQueueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE3775D1CF8817E00EBF8BD /* PDCQueueUITests.m */,
+				EAE3775F1CF8817E00EBF8BD /* Info.plist */,
+			);
+			path = PDCQueueUITests;
+			sourceTree = "<group>";
+		};
+		EAE3776E1CF88E6500EBF8BD /* queue demo */ = {
+			isa = PBXGroup;
+			children = (
+				EAE3773E1CF8817E00EBF8BD /* AsynGroup.h */,
+				EAE3773F1CF8817E00EBF8BD /* AsynGroup.m */,
+				EAE3776F1CF88ECF00EBF8BD /* SafeThread.h */,
+				EAE377701CF88ECF00EBF8BD /* SafeThread.m */,
+				EAED56771CF943C0007BEF66 /* SerialQueue.h */,
+				EAED56781CF943C0007BEF66 /* SerialQueue.m */,
+				EAED56CA1CF980D8007BEF66 /* SerialOperationQueue.h */,
+				EAED56CB1CF980D8007BEF66 /* SerialOperationQueue.m */,
+				EA2050581CFED44600A81DD6 /* DispathApply.h */,
+				EA2050591CFED44600A81DD6 /* DispathApply.m */,
+				EA2050601CFEEA5800A81DD6 /* QoSClass.h */,
+				EA2050611CFEEA5800A81DD6 /* QoSClass.m */,
+			);
+			name = "queue demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE377341CF8817E00EBF8BD /* PDCQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE377621CF8817E00EBF8BD /* Build configuration list for PBXNativeTarget "PDCQueue" */;
+			buildPhases = (
+				EAE377311CF8817E00EBF8BD /* Sources */,
+				EAE377321CF8817E00EBF8BD /* Frameworks */,
+				EAE377331CF8817E00EBF8BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDCQueue;
+			productName = PDCQueue;
+			productReference = EAE377351CF8817E00EBF8BD /* PDCQueue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAE3774D1CF8817E00EBF8BD /* PDCQueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE377651CF8817E00EBF8BD /* Build configuration list for PBXNativeTarget "PDCQueueTests" */;
+			buildPhases = (
+				EAE3774A1CF8817E00EBF8BD /* Sources */,
+				EAE3774B1CF8817E00EBF8BD /* Frameworks */,
+				EAE3774C1CF8817E00EBF8BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE377501CF8817E00EBF8BD /* PBXTargetDependency */,
+			);
+			name = PDCQueueTests;
+			productName = PDCQueueTests;
+			productReference = EAE3774E1CF8817E00EBF8BD /* PDCQueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAE377581CF8817E00EBF8BD /* PDCQueueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE377681CF8817E00EBF8BD /* Build configuration list for PBXNativeTarget "PDCQueueUITests" */;
+			buildPhases = (
+				EAE377551CF8817E00EBF8BD /* Sources */,
+				EAE377561CF8817E00EBF8BD /* Frameworks */,
+				EAE377571CF8817E00EBF8BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE3775B1CF8817E00EBF8BD /* PBXTargetDependency */,
+			);
+			name = PDCQueueUITests;
+			productName = PDCQueueUITests;
+			productReference = EAE377591CF8817E00EBF8BD /* PDCQueueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE3772D1CF8817E00EBF8BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KH;
+				TargetAttributes = {
+					EAE377341CF8817E00EBF8BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W88745LGN6;
+					};
+					EAE3774D1CF8817E00EBF8BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAE377341CF8817E00EBF8BD;
+					};
+					EAE377581CF8817E00EBF8BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAE377341CF8817E00EBF8BD;
+					};
+				};
+			};
+			buildConfigurationList = EAE377301CF8817E00EBF8BD /* Build configuration list for PBXProject "PDCQueue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE3772C1CF8817E00EBF8BD;
+			productRefGroup = EAE377361CF8817E00EBF8BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE377341CF8817E00EBF8BD /* PDCQueue */,
+				EAE3774D1CF8817E00EBF8BD /* PDCQueueTests */,
+				EAE377581CF8817E00EBF8BD /* PDCQueueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE377331CF8817E00EBF8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE377481CF8817E00EBF8BD /* LaunchScreen.storyboard in Resources */,
+				EAE377451CF8817E00EBF8BD /* Assets.xcassets in Resources */,
+				EAE377431CF8817E00EBF8BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE3774C1CF8817E00EBF8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE377571CF8817E00EBF8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE377311CF8817E00EBF8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE377401CF8817E00EBF8BD /* AsynGroup.m in Sources */,
+				EAED56D31CF9C208007BEF66 /* PDCSerialQueue.m in Sources */,
+				EAED56731CF930A1007BEF66 /* PDCQueue.m in Sources */,
+				EAE3773D1CF8817E00EBF8BD /* AppDelegate.m in Sources */,
+				EAED56831CF96517007BEF66 /* PDCOperation.m in Sources */,
+				EA20505F1CFED7A400A81DD6 /* NSArray+PDCKit.m in Sources */,
+				EA2050621CFEEA5800A81DD6 /* QoSClass.m in Sources */,
+				EAE3773A1CF8817E00EBF8BD /* main.m in Sources */,
+				EAE377711CF88ECF00EBF8BD /* SafeThread.m in Sources */,
+				EAED56CC1CF980D8007BEF66 /* SerialOperationQueue.m in Sources */,
+				EAE3776D1CF8865100EBF8BD /* PDCQueueTableVIewController.m in Sources */,
+				EAED56791CF943C0007BEF66 /* SerialQueue.m in Sources */,
+				EA20505A1CFED44600A81DD6 /* DispathApply.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE3774A1CF8817E00EBF8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE377531CF8817E00EBF8BD /* PDCQueueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE377551CF8817E00EBF8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE3775E1CF8817E00EBF8BD /* PDCQueueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAE377501CF8817E00EBF8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE377341CF8817E00EBF8BD /* PDCQueue */;
+			targetProxy = EAE3774F1CF8817E00EBF8BD /* PBXContainerItemProxy */;
+		};
+		EAE3775B1CF8817E00EBF8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE377341CF8817E00EBF8BD /* PDCQueue */;
+			targetProxy = EAE3775A1CF8817E00EBF8BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAE377411CF8817E00EBF8BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE377421CF8817E00EBF8BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAE377461CF8817E00EBF8BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE377471CF8817E00EBF8BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE377601CF8817E00EBF8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAE377611CF8817E00EBF8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE377631CF8817E00EBF8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PDCQueue/pch_head.pch";
+				INFOPLIST_FILE = PDCQueue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCQueue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAE377641CF8817E00EBF8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PDCQueue/pch_head.pch";
+				INFOPLIST_FILE = PDCQueue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCQueue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAE377661CF8817E00EBF8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDCQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCQueueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDCQueue.app/PDCQueue";
+			};
+			name = Debug;
+		};
+		EAE377671CF8817E00EBF8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDCQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCQueueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDCQueue.app/PDCQueue";
+			};
+			name = Release;
+		};
+		EAE377691CF8817E00EBF8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PDCQueueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCQueueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PDCQueue;
+			};
+			name = Debug;
+		};
+		EAE3776A1CF8817E00EBF8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PDCQueueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCQueueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PDCQueue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE377301CF8817E00EBF8BD /* Build configuration list for PBXProject "PDCQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE377601CF8817E00EBF8BD /* Debug */,
+				EAE377611CF8817E00EBF8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE377621CF8817E00EBF8BD /* Build configuration list for PBXNativeTarget "PDCQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE377631CF8817E00EBF8BD /* Debug */,
+				EAE377641CF8817E00EBF8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE377651CF8817E00EBF8BD /* Build configuration list for PBXNativeTarget "PDCQueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE377661CF8817E00EBF8BD /* Debug */,
+				EAE377671CF8817E00EBF8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE377681CF8817E00EBF8BD /* Build configuration list for PBXNativeTarget "PDCQueueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE377691CF8817E00EBF8BD /* Debug */,
+				EAE3776A1CF8817E00EBF8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE3772D1CF8817E00EBF8BD /* Project object */;
+}
