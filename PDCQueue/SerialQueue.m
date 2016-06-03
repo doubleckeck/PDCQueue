@@ -7,6 +7,7 @@
 //
 
 #import "SerialQueue.h"
+#import "PDCQueueFunction.h"
 
 @implementation SerialQueue
 
@@ -15,6 +16,12 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+
+    [self demo2];
+}
+
+-(void )demo1
+{
     __block NSInteger count = 0;
     for (NSUInteger i = 0; i < 200; ++i)
     {
@@ -23,9 +30,21 @@
         } block2:^{
             NSLog(@"%@",@(count));
         }];
-    
+        
     }
-    
 }
 
+-(void )demo2
+{
+    __block NSUInteger i = 0;
+    gcd_asynSerialQueue(1.0, ^(BOOL *finish){
+        i++;
+        if (i == 10)
+        {
+            *finish = YES;
+        }
+        
+        NSLog(@"print %@",@(i));
+    });
+}
 @end

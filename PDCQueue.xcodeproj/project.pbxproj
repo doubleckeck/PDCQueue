@@ -10,6 +10,7 @@
 		EA20505A1CFED44600A81DD6 /* DispathApply.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2050591CFED44600A81DD6 /* DispathApply.m */; };
 		EA20505F1CFED7A400A81DD6 /* NSArray+PDCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20505E1CFED7A400A81DD6 /* NSArray+PDCKit.m */; };
 		EA2050621CFEEA5800A81DD6 /* QoSClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2050611CFEEA5800A81DD6 /* QoSClass.m */; };
+		EA2051B11D0150F500A81DD6 /* PDCQueueFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051B01D0150F500A81DD6 /* PDCQueueFunction.m */; };
 		EAE3773A1CF8817E00EBF8BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE377391CF8817E00EBF8BD /* main.m */; };
 		EAE3773D1CF8817E00EBF8BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3773C1CF8817E00EBF8BD /* AppDelegate.m */; };
 		EAE377401CF8817E00EBF8BD /* AsynGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3773F1CF8817E00EBF8BD /* AsynGroup.m */; };
@@ -51,6 +52,9 @@
 		EA20505E1CFED7A400A81DD6 /* NSArray+PDCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PDCKit.m"; sourceTree = "<group>"; };
 		EA2050601CFEEA5800A81DD6 /* QoSClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QoSClass.h; sourceTree = "<group>"; };
 		EA2050611CFEEA5800A81DD6 /* QoSClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QoSClass.m; sourceTree = "<group>"; };
+		EA2051AF1D0150F500A81DD6 /* PDCQueueFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCQueueFunction.h; sourceTree = "<group>"; };
+		EA2051B01D0150F500A81DD6 /* PDCQueueFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCQueueFunction.m; sourceTree = "<group>"; };
+		EA2051B41D0158FE00A81DD6 /* PDCBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDCBlock.h; sourceTree = "<group>"; };
 		EAE377351CF8817E00EBF8BD /* PDCQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDCQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE377391CF8817E00EBF8BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAE3773B1CF8817E00EBF8BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,12 +125,15 @@
 		EA20505C1CFED77100A81DD6 /* PDC */ = {
 			isa = PBXGroup;
 			children = (
+				EA2051AF1D0150F500A81DD6 /* PDCQueueFunction.h */,
+				EA2051B01D0150F500A81DD6 /* PDCQueueFunction.m */,
 				EAED56711CF930A1007BEF66 /* PDCQueue.h */,
 				EAED56721CF930A1007BEF66 /* PDCQueue.m */,
 				EAED56D11CF9C208007BEF66 /* PDCSerialQueue.h */,
 				EAED56D21CF9C208007BEF66 /* PDCSerialQueue.m */,
 				EAED56811CF96517007BEF66 /* PDCOperation.h */,
 				EAED56821CF96517007BEF66 /* PDCOperation.m */,
+				EA2051B41D0158FE00A81DD6 /* PDCBlock.h */,
 			);
 			name = PDC;
 			sourceTree = "<group>";
@@ -352,6 +359,7 @@
 				EAED56731CF930A1007BEF66 /* PDCQueue.m in Sources */,
 				EAE3773D1CF8817E00EBF8BD /* AppDelegate.m in Sources */,
 				EAED56831CF96517007BEF66 /* PDCOperation.m in Sources */,
+				EA2051B11D0150F500A81DD6 /* PDCQueueFunction.m in Sources */,
 				EA20505F1CFED7A400A81DD6 /* NSArray+PDCKit.m in Sources */,
 				EA2050621CFEEA5800A81DD6 /* QoSClass.m in Sources */,
 				EAE3773A1CF8817E00EBF8BD /* main.m in Sources */,

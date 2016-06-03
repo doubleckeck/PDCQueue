@@ -9,6 +9,8 @@
 #import "SerialOperationQueue.h"
 #import "PDCSerialQueue.h"
 
+#import "PDCQueueFunction.h"
+
 typedef void queue_action;
 
 @interface SerialOperationQueue ()
@@ -57,6 +59,7 @@ typedef void queue_action;
             dispatch_semaphore_signal(semap);
         });
     }];
+    
 }
 
 /* 创建两个按钮 */
@@ -77,8 +80,8 @@ typedef void queue_action;
     self.goOnBtn.center      = CGPointMake(width * 0.25, 200);
     self.cancelBtn.center    = CGPointMake(width * 0.75, 200);
     
-    [self.goOnBtn setTitle:@"继续" forState:UIControlStateNormal];
-    [self.cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
+    [self.goOnBtn setTitle:@"tap and move" forState:UIControlStateNormal];
+    [self.cancelBtn setTitle:@"this is location" forState:UIControlStateNormal];
     
 }
 @end
