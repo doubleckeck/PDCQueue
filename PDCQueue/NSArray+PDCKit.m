@@ -17,7 +17,7 @@
 
 -(void )asynSerialEnumerateObjectsUsingBlock:(block_array )block
 {
-    [self pr_enumerateObjectsUsingQueue:dispatch_queue_create("doublecheck.pdc.array.enumerate", 0) block:block];
+    [self pr_enumerateObjectsUsingQueue:dispatch_queue_create("pdc.array.enumerate", DISPATCH_QUEUE_SERIAL) block:block];
 }
 
 -(void )pr_enumerateObjectsUsingQueue:(dispatch_queue_t )queue block:(block_array )block
